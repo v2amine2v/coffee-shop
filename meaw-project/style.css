@@ -1,0 +1,127 @@
+@font-face{
+ font-family: savate;
+ src: url(fonts/Savate-Italic-VariableFont_wght.ttf);
+}
+body{
+	margin: 0;
+	padding: 0;
+    background-image: url(image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: savate ;
+	transition: all 0.5s ease;
+	a:not(:hover){
+		color: rgba(139, 126, 126, 0.836);
+		text-decoration: none;
+	}
+	a:hover{
+		color: rgb(129, 90, 38);
+		text-shadow: 0 0 10px   rgba(107, 74, 31, 0.993);
+
+	}
+	
+
+}
+.banner{
+	height: 50px;
+	width: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	position: sticky;
+}
+.box{
+	height: 400px;
+	width: 340px;
+	background: transparent;
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 252, 252, 0.5);
+    border-radius: 10px;
+	margin:auto;
+	margin-top: 100px;
+	color: white;
+}
+	
+
+
+.login{
+	font-family: savate ;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	position: relative;
+	top: -20px;
+	font-weight: bold;
+	font-size: 50px;
+
+	
+}
+.input-box input{
+	border-radius: 20px;
+	border-color: white;
+	backdrop-filter: blur(20px);
+	background-color: transparent;
+	width: 90%;
+	height:40px;
+	position: relative;
+	left: 10px;
+	top:-20px
+}
+.input-box input::placeholder{
+	font-size: 15px;
+	color: white;
+	left: 10px;
+	position: relative;
+}
+.login-button input {
+    border-radius: 20px;
+    width: 250px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    outline: none;
+	font-family: savate;
+	font-size: 18px;
+	position: relative;
+	left: 45px;
+	top:-35px;
+	border: none;
+	transition: all 0.5s ease;
+	
+}
+
+.login-button input:hover {
+    background-color: rgba(180, 139, 77, 0.979);
+    color: white;
+	box-shadow: 0 0 10px 4px rgba(133, 104, 42, 0.897);
+}
+
+.login-button input:active {
+    background-color: rgb(65, 83, 48);
+    color: white;
+}
+.input-box i{
+	position: relative;
+	right: 25px;
+	font-size: 20px;
+	top:-16px
+}
+.signup{
+	position: relative;
+	font-size: 15px;
+	top: -45px;
+	left:70px
+}
+.get-password{
+	position: relative;
+	left:78px;
+	font-size:1 ; 
+	top:-30px
+}
+.remember-me{
+	position: relative;
+	left: 20px;
+	top:-30px;
+	font-size:15px;	
+}
